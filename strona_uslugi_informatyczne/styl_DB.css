@@ -1,0 +1,73 @@
+body {
+    background-color: #EEEEEE;
+    font-family: Helvetica;
+}
+
+.kontener {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: LightCoral;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.baner {
+    background-color: transparent;
+    height: 200px;
+}
+
+.blok-glowny {
+    color: Navy;
+    margin: 50px;
+    height: 400px;
+}
+
+.stopka {
+    text-align: right;
+    background-color: LightBlue;
+    padding: 10px;
+}
+
+button {
+    background-color: LightBlue;
+    color: Navy;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.menu a {
+    color: Navy;
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+.menu a:hover {
+    border: 1px solid Navy;
+}
